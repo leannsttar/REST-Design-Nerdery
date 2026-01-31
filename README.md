@@ -2,11 +2,11 @@
 
 ![Status](https://img.shields.io/badge/status-active-success.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-A production-ready, RESTful E-commerce API built with **OAS 3.1** standards. Features a normalized database for complex inventory, secure JWT authentication, and Stripe payment integration.
+A RESTful E-commerce API built with **OAS 3.1** standards. Features a normalized database for complex inventory, secure JWT authentication, and Stripe payment integration.
 
 ## ⚡ Key Features
 
-* **Inventory:** Normalized variant system (Shopify-style) for complex attribute combinations (e.g., SKU for "Red/Large").
+* **Inventory:** Normalized variant system for complex attribute combinations (e.g., SKU for "Red/Large").
 * **Security:** Stateless JWT authentication with HTTP-only Refresh Tokens.
 * **Transactions:** Server-side cart calculations and strict order price snapshots.
 * **Payments:** Full Stripe Payment Intent & Webhook integration.
